@@ -144,9 +144,9 @@ h1 {
   height: auto;
 }
 .nav-phone {
-  font-size: 30px;
+  font-size: 20px;
   font-weight: bold;
-  margin: 10px 0 0 300px;
+  margin: 10px 0 0 360px;
 }
 .nav-phone a {
   text-decoration: none;
@@ -157,13 +157,13 @@ h1 {
 }
 @media (max-width: 1199px) {
   .nav-phone {
-    margin-left: 120px;
+    margin-left: 180px;
   }
 }
 @media (max-width: 768px) {
   .nav-phone {
     margin: 10px auto;
-    width: 270px;
+    width: 180px;
   }
   .nav-phone a {
     color: inherit;
@@ -179,10 +179,10 @@ h1 {
   background: url('../img/header_flat.jpg') 50% 0 no-repeat;
 }
 .header-back.two {
-  background: url('../img/header_office.jpg') 50% 0 no-repeat;
+  background: url('../img/header_industrial.jpg') 50% 0 no-repeat;
 }
 .header-back.three {
-  background: url('../img/header_industrial.jpg') 50% 0 no-repeat;
+  background: url('../img/b3.jpg') 50% 0 no-repeat;
 }
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
@@ -310,8 +310,11 @@ h1 {
   color: #1ab394;
 }
 .features h2 {
-  font-size: 18px;
+  font-size: 20px;
   margin-top: 5px;
+}
+.features p {
+  font-size: 16px;
 }
 .features-text-alone {
   margin: 40px 0;
